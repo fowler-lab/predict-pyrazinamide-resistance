@@ -1,4 +1,6 @@
 MUTATION,IS_SNP,IN_CDS,R,S
+-3_indel,False,False,1,1
+-5_indel,False,False,2,0
 A102P,True,True,0,1
 A102R,True,True,0,1
 A102T,True,True,1,0
@@ -194,7 +196,5 @@ a-11c,True,False,3,2
 a-11g,True,False,31,4
 a-11t,True,False,0,1
 g-13t,True,False,0,1
-indel_-3,False,False,1,1
-indel_-5,False,False,2,0
 t-7c,True,False,4,0
 t-7g,True,False,1,0
