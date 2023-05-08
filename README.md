@@ -6,7 +6,7 @@ The aim of this GitHub repository is to allow you to reproduce the results and f
 >
 > Joshua J Carter, Timothy M Walker, A Sarah Walker, Michael G. Whitfield, Glenn P. Morlock, Timothy EA Peto, James E. Posey,  Derrick W Crook,  Philip W Fowler
 >
-> doi: https://doi.org/10.1101/518142
+> https://doi.org/10.1101/518142
 
 At present, the above manuscript is being rewritten and therefore this repository is different to the above preprint. Once a new version of the manuscript is ready, the preprint will be updated and the manuscript submitted to a journal for review.
 
