@@ -14,7 +14,7 @@ The repository contains a series of jupyter notebooks. They form a sequence, sta
 
 They are split into two sets. 
 
-## Data tidying, processing and aggregating
+## 1. Data tidying, processing and aggregating
 
 The first handles the data tidying, processing and joining to create the Training, Test, Validation and MIC datasets. They are numbered in the order that they need to be run.
 
@@ -27,7 +27,7 @@ The first handles the data tidying, processing and joining to create the Trainin
 
 Some have flags set at the beginning that need changing and the notebook rerunning. For example, `filestem` at the start of `3-add-features.ipynb` needs to be one of `testtrain`, `validation` or `mic`. This is explained in the notebooks.
 
-## Reproducing figures, including training the Machine Learning models
+## 2. Reproducing figures, including training the Machine Learning models
 
 These are handled by 
 
