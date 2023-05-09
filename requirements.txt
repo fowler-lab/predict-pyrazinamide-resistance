@@ -4,3 +4,4 @@ skops
 sbmlcore
 matplotlib
 MDAnalysis
+openpyxl
