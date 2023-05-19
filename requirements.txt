@@ -1,7 +1,10 @@
 pandas
+numpy
 scikit-learn
 skops
 sbmlcore
 matplotlib
+seaborn
 MDAnalysis
 openpyxl
+xgboost
