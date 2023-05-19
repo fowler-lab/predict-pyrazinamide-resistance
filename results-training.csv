@@ -1,0 +1,5 @@
+model,dataset,sensitivity_mean,sensitivity_std,specificity_mean,specificity_std,roc_auc_mean,roc_auc_std,TN,FP,FN,TP,model_parameters,diagnostic_odds_ratio_mean,diagnostic_odds_ratio_std
+LR,train,78.8,6.200716804441959,84.35757575757576,5.114400437659793,82.48405953949431,7.276335216020491,180,38,49,197,"{""C"": 1.0, ""penalty"": ""l1"", ""solver"": ""liblinear""}",19.044038668098818,0
+NN,train,78.91666666666667,5.147949969540195,83.68279220779222,5.282488096528436,81.76002837741967,7.781498600544456,218,0,0,246,"{""activation"": ""logistic"", ""alpha"": 0.01, ""hidden_layer_sizes"": [100, 50, 10], ""max_iter"": 400, ""solver"": ""lbfgs""}",inf,0
+XB,train,79.21666666666667,5.468114645632238,85.7819264069264,4.776355441100672,83.50283267457179,7.880219607918064,192,26,43,203,"{""learning_rate"": 0.05, ""max_depth"": 4, ""min_child_weight"": 10, ""n_estimators"": 100, ""subsample"": 0.8}",34.86225402504472,0
+SP,train,97.96747967479675,,95.41284403669725,,,,208,10,5,241,null,1002.56,0
