@@ -1,5 +1,6 @@
 import json
 from sklearn.metrics import recall_score, roc_auc_score, confusion_matrix
+from sklearn.base import BaseEstimator, TransformerMixin
 
 def construct_line(model_name , dataset, scores, y, best_parameters):
   
@@ -34,3 +35,11 @@ def construct_line(model_name , dataset, scores, y, best_parameters):
     row.append(table[1][1])
     row.append(json.dumps(best_parameters))
     return row
+
+class DataFrameSelector(BaseEstimator, TransformerMixin):
+    def __init__(self, attribute_names):
+        self.attribute_names = attribute_names
+    def fit(self, X, y=None):
+        return self
+    def transform(self, X):
+        return X[self.attribute_names].values
