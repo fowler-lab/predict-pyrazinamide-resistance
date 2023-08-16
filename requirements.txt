@@ -9,3 +9,4 @@ MDAnalysis
 openpyxl
 xgboost
 matplotlib-venn
+statsmodels
