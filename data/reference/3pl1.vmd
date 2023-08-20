@@ -332,7 +332,7 @@ mol clipplane color  5 0 top {0.5 0.5 0.5 }
 mol clipplane normal 5 0 top {0.0 0.0 1.0}
 mol clipplane status 5 0 top {0}
 mol representation VDW 1.000000 12.000000
-mol color ColorID 3
+mol color ColorID 2
 mol selection {resname PZA}
 mol material Opaque
 mol addrep top
@@ -403,7 +403,6 @@ mol showrep top 2 0
 mol representation VDW 1.000000 12.000000
 mol color ColorID 0
 mol selection {name CA and resid 2 11 15 20 23 25 28 29 33 35 37 39 40 45 50 52 53 56 60 61 64 67 73 74 79 80 83 84 86 87 88 91 95 98 99 100 102 107 109 111 112 113 121 124 126 141 144 148 157 161 163 167 169 173 177 178 179 185}
-#mol selection {name CA and resid 11 15 33 39 43 60 74 80 84 99 107 111 112 113 123 126 141 144 149 169 185}
 mol material Opaque
 mol addrep top
 mol selupdate 3 top 0
@@ -505,6 +504,7 @@ mol clipplane center 5 5 top {0.0 0.0 0.0}
 mol clipplane color  5 5 top {0.5 0.5 0.5 }
 mol clipplane normal 5 5 top {0.0 0.0 1.0}
 mol clipplane status 5 5 top {0}
+mol showrep top 5 0
 mol representation QuickSurf 1.100000 0.500000 1.000000 1.000000
 mol color ColorID 8
 mol selection {all}
@@ -539,6 +539,7 @@ mol clipplane center 5 6 top {0.0 0.0 0.0}
 mol clipplane color  5 6 top {0.5 0.5 0.5 }
 mol clipplane normal 5 6 top {0.0 0.0 1.0}
 mol clipplane status 5 6 top {0}
+mol showrep top 6 0
 mol representation QuickSurf 1.000000 0.500000 1.000000 1.000000
 mol color ColorID 2
 mol selection {resid 17 30 32 38 42 44 55 65 70 81 82 90 92 101 105 110 115 118 120 125 133 134 147 154 160 166 181 182 184}
@@ -549,26 +550,206 @@ mol colupdate 7 top 0
 mol scaleminmax top 7 0.000000 0.000000
 mol smoothrep top 7 0
 mol drawframes top 7 {now}
+mol clipplane center 0 7 top {0.0 0.0 0.0}
+mol clipplane color  0 7 top {0.5 0.5 0.5 }
+mol clipplane normal 0 7 top {0.0 0.0 1.0}
+mol clipplane status 0 7 top {0}
+mol clipplane center 1 7 top {0.0 0.0 0.0}
+mol clipplane color  1 7 top {0.5 0.5 0.5 }
+mol clipplane normal 1 7 top {0.0 0.0 1.0}
+mol clipplane status 1 7 top {0}
+mol clipplane center 2 7 top {0.0 0.0 0.0}
+mol clipplane color  2 7 top {0.5 0.5 0.5 }
+mol clipplane normal 2 7 top {0.0 0.0 1.0}
+mol clipplane status 2 7 top {0}
+mol clipplane center 3 7 top {0.0 0.0 0.0}
+mol clipplane color  3 7 top {0.5 0.5 0.5 }
+mol clipplane normal 3 7 top {0.0 0.0 1.0}
+mol clipplane status 3 7 top {0}
+mol clipplane center 4 7 top {0.0 0.0 0.0}
+mol clipplane color  4 7 top {0.5 0.5 0.5 }
+mol clipplane normal 4 7 top {0.0 0.0 1.0}
+mol clipplane status 4 7 top {0}
+mol clipplane center 5 7 top {0.0 0.0 0.0}
+mol clipplane color  5 7 top {0.5 0.5 0.5 }
+mol clipplane normal 5 7 top {0.0 0.0 1.0}
+mol clipplane status 5 7 top {0}
+mol showrep top 7 0
 mol representation QuickSurf 1.000000 0.500000 1.000000 1.000000
 mol color ColorID 31
-mol selection {resid 18 29 30 32 38 76 82 88 93 110 112 115 118 127 174 }
+mol selection {resid 4 18 29 36 38 88 93 112 115 118 127 149}
 mol material Transparent
 mol addrep top
+mol selupdate 8 top 0
+mol colupdate 8 top 0
+mol scaleminmax top 8 0.000000 0.000000
+mol smoothrep top 8 0
+mol drawframes top 8 {now}
+mol clipplane center 0 8 top {0.0 0.0 0.0}
+mol clipplane color  0 8 top {0.5 0.5 0.5 }
+mol clipplane normal 0 8 top {0.0 0.0 1.0}
+mol clipplane status 0 8 top {0}
+mol clipplane center 1 8 top {0.0 0.0 0.0}
+mol clipplane color  1 8 top {0.5 0.5 0.5 }
+mol clipplane normal 1 8 top {0.0 0.0 1.0}
+mol clipplane status 1 8 top {0}
+mol clipplane center 2 8 top {0.0 0.0 0.0}
+mol clipplane color  2 8 top {0.5 0.5 0.5 }
+mol clipplane normal 2 8 top {0.0 0.0 1.0}
+mol clipplane status 2 8 top {0}
+mol clipplane center 3 8 top {0.0 0.0 0.0}
+mol clipplane color  3 8 top {0.5 0.5 0.5 }
+mol clipplane normal 3 8 top {0.0 0.0 1.0}
+mol clipplane status 3 8 top {0}
+mol clipplane center 4 8 top {0.0 0.0 0.0}
+mol clipplane color  4 8 top {0.5 0.5 0.5 }
+mol clipplane normal 4 8 top {0.0 0.0 1.0}
+mol clipplane status 4 8 top {0}
+mol clipplane center 5 8 top {0.0 0.0 0.0}
+mol clipplane color  5 8 top {0.5 0.5 0.5 }
+mol clipplane normal 5 8 top {0.0 0.0 1.0}
+mol clipplane status 5 8 top {0}
+mol showrep top 8 0
 mol representation Licorice 0.40 12.0 12.0
 mol color ColorID 31
-mol selection {resid 18 29 30 32 38 76 82 88 93 110 112 115 118 127 174 }
+mol selection {resid 4 18 29 36 38 88 93 112 115 118 127 149}
 mol material Opaque
 mol addrep top
+mol selupdate 9 top 0
+mol colupdate 9 top 0
+mol scaleminmax top 9 0.000000 0.000000
+mol smoothrep top 9 0
+mol drawframes top 9 {now}
+mol clipplane center 0 9 top {0.0 0.0 0.0}
+mol clipplane color  0 9 top {0.5 0.5 0.5 }
+mol clipplane normal 0 9 top {0.0 0.0 1.0}
+mol clipplane status 0 9 top {0}
+mol clipplane center 1 9 top {0.0 0.0 0.0}
+mol clipplane color  1 9 top {0.5 0.5 0.5 }
+mol clipplane normal 1 9 top {0.0 0.0 1.0}
+mol clipplane status 1 9 top {0}
+mol clipplane center 2 9 top {0.0 0.0 0.0}
+mol clipplane color  2 9 top {0.5 0.5 0.5 }
+mol clipplane normal 2 9 top {0.0 0.0 1.0}
+mol clipplane status 2 9 top {0}
+mol clipplane center 3 9 top {0.0 0.0 0.0}
+mol clipplane color  3 9 top {0.5 0.5 0.5 }
+mol clipplane normal 3 9 top {0.0 0.0 1.0}
+mol clipplane status 3 9 top {0}
+mol clipplane center 4 9 top {0.0 0.0 0.0}
+mol clipplane color  4 9 top {0.5 0.5 0.5 }
+mol clipplane normal 4 9 top {0.0 0.0 1.0}
+mol clipplane status 4 9 top {0}
+mol clipplane center 5 9 top {0.0 0.0 0.0}
+mol clipplane color  5 9 top {0.5 0.5 0.5 }
+mol clipplane normal 5 9 top {0.0 0.0 1.0}
+mol clipplane status 5 9 top {0}
+mol showrep top 9 0
 mol representation QuickSurf 1.000000 0.500000 1.000000 1.000000
 mol color ColorID 32
-mol selection {resid 11 17 19 23 28 32 35 46 58 79 172 178}
+mol selection {resid 11 17 17 19 28 35 45 46 58 79 178}
 mol material Transparent
 mol addrep top
+mol selupdate 10 top 0
+mol colupdate 10 top 0
+mol scaleminmax top 10 0.000000 0.000000
+mol smoothrep top 10 0
+mol drawframes top 10 {now}
+mol clipplane center 0 10 top {0.0 0.0 0.0}
+mol clipplane color  0 10 top {0.5 0.5 0.5 }
+mol clipplane normal 0 10 top {0.0 0.0 1.0}
+mol clipplane status 0 10 top {0}
+mol clipplane center 1 10 top {0.0 0.0 0.0}
+mol clipplane color  1 10 top {0.5 0.5 0.5 }
+mol clipplane normal 1 10 top {0.0 0.0 1.0}
+mol clipplane status 1 10 top {0}
+mol clipplane center 2 10 top {0.0 0.0 0.0}
+mol clipplane color  2 10 top {0.5 0.5 0.5 }
+mol clipplane normal 2 10 top {0.0 0.0 1.0}
+mol clipplane status 2 10 top {0}
+mol clipplane center 3 10 top {0.0 0.0 0.0}
+mol clipplane color  3 10 top {0.5 0.5 0.5 }
+mol clipplane normal 3 10 top {0.0 0.0 1.0}
+mol clipplane status 3 10 top {0}
+mol clipplane center 4 10 top {0.0 0.0 0.0}
+mol clipplane color  4 10 top {0.5 0.5 0.5 }
+mol clipplane normal 4 10 top {0.0 0.0 1.0}
+mol clipplane status 4 10 top {0}
+mol clipplane center 5 10 top {0.0 0.0 0.0}
+mol clipplane color  5 10 top {0.5 0.5 0.5 }
+mol clipplane normal 5 10 top {0.0 0.0 1.0}
+mol clipplane status 5 10 top {0}
+mol showrep top 10 0
 mol representation Licorice 0.40 12.0 12.0
 mol color ColorID 32
-mol selection {resid 11 17 19 23 28 32 35 46 58 79 172 178}
+mol selection {resid 11 17 17 19 28 35 45 46 58 79 178}
 mol material Opaque
 mol addrep top
+mol selupdate 11 top 0
+mol colupdate 11 top 0
+mol scaleminmax top 11 0.000000 0.000000
+mol smoothrep top 11 0
+mol drawframes top 11 {now}
+mol clipplane center 0 11 top {0.0 0.0 0.0}
+mol clipplane color  0 11 top {0.5 0.5 0.5 }
+mol clipplane normal 0 11 top {0.0 0.0 1.0}
+mol clipplane status 0 11 top {0}
+mol clipplane center 1 11 top {0.0 0.0 0.0}
+mol clipplane color  1 11 top {0.5 0.5 0.5 }
+mol clipplane normal 1 11 top {0.0 0.0 1.0}
+mol clipplane status 1 11 top {0}
+mol clipplane center 2 11 top {0.0 0.0 0.0}
+mol clipplane color  2 11 top {0.5 0.5 0.5 }
+mol clipplane normal 2 11 top {0.0 0.0 1.0}
+mol clipplane status 2 11 top {0}
+mol clipplane center 3 11 top {0.0 0.0 0.0}
+mol clipplane color  3 11 top {0.5 0.5 0.5 }
+mol clipplane normal 3 11 top {0.0 0.0 1.0}
+mol clipplane status 3 11 top {0}
+mol clipplane center 4 11 top {0.0 0.0 0.0}
+mol clipplane color  4 11 top {0.5 0.5 0.5 }
+mol clipplane normal 4 11 top {0.0 0.0 1.0}
+mol clipplane status 4 11 top {0}
+mol clipplane center 5 11 top {0.0 0.0 0.0}
+mol clipplane color  5 11 top {0.5 0.5 0.5 }
+mol clipplane normal 5 11 top {0.0 0.0 1.0}
+mol clipplane status 5 11 top {0}
+mol showrep top 11 0
+mol representation VDW 1.000000 12.000000
+mol color Name
+mol selection {resid 88}
+mol material Opaque
+mol addrep top
+mol selupdate 12 top 0
+mol colupdate 12 top 0
+mol scaleminmax top 12 0.000000 0.000000
+mol smoothrep top 12 0
+mol drawframes top 12 {now}
+mol clipplane center 0 12 top {0.0 0.0 0.0}
+mol clipplane color  0 12 top {0.5 0.5 0.5 }
+mol clipplane normal 0 12 top {0.0 0.0 1.0}
+mol clipplane status 0 12 top {0}
+mol clipplane center 1 12 top {0.0 0.0 0.0}
+mol clipplane color  1 12 top {0.5 0.5 0.5 }
+mol clipplane normal 1 12 top {0.0 0.0 1.0}
+mol clipplane status 1 12 top {0}
+mol clipplane center 2 12 top {0.0 0.0 0.0}
+mol clipplane color  2 12 top {0.5 0.5 0.5 }
+mol clipplane normal 2 12 top {0.0 0.0 1.0}
+mol clipplane status 2 12 top {0}
+mol clipplane center 3 12 top {0.0 0.0 0.0}
+mol clipplane color  3 12 top {0.5 0.5 0.5 }
+mol clipplane normal 3 12 top {0.0 0.0 1.0}
+mol clipplane status 3 12 top {0}
+mol clipplane center 4 12 top {0.0 0.0 0.0}
+mol clipplane color  4 12 top {0.5 0.5 0.5 }
+mol clipplane normal 4 12 top {0.0 0.0 1.0}
+mol clipplane status 4 12 top {0}
+mol clipplane center 5 12 top {0.0 0.0 0.0}
+mol clipplane color  5 12 top {0.5 0.5 0.5 }
+mol clipplane normal 5 12 top {0.0 0.0 1.0}
+mol clipplane status 5 12 top {0}
+mol showrep top 12 0
 mol rename top 3PL1-PZA.pdb
 set viewpoints([molinfo top]) {{{1 0 0 -2.82433} {0 1 0 29.0852} {0 0 1 -2.05701} {0 0 0 1}} {{-0.558802 0.358417 -0.747791 0} {0.793821 0.491946 -0.357433 0} {0.239761 -0.79342 -0.559423 0} {0 0 0 1}} {{0.045066 0 0 0} {0 0.045066 0 0} {0 0 0.045066 0} {0 0 0 1}} {{1 0 0 -0.1} {0 1 0 -0.08} {0 0 1 0} {0 0 0 1}}}
 lappend viewplist [molinfo top]
@@ -746,6 +927,7 @@ color scale colors CET_R2 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
     {color Segname {} blue}
     {color Conformation {all} blue}
     {color Molecule {0} blue}
+    {color Molecule {3PL1-PZA.pdb} blue}
     {color Structure {3_10_Helix} blue}
     {color Surface {Grasp} gray}
     {color Labels {Springs} orange}
@@ -755,8 +937,8 @@ color scale colors CET_R2 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
   foreach colcmd $colorcmds {
     set val [catch {eval $colcmd}]
   }
-  color change rgb 0 0.2157 0.4941 0.7216
-  color change rgb 1 0.8941 0.1020 0.1098
+  color change rgb 0 0.21570000052452087 0.49410000443458557 0.7215999960899353
+  color change rgb 1 0.89410001039505 0.10199999809265137 0.10980000346899033
   color change rgb 2 0.3499999940395355 0.3499999940395355 0.3499999940395355
   color change rgb 3 1.0 0.5 0.0
   color change rgb 4 1.0 1.0 0.0
@@ -783,12 +965,11 @@ color scale colors CET_R2 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
   color change rgb 28 1.0 0.0 0.6600000262260437
   color change rgb 29 0.9800000190734863 0.0 0.23000000417232513
   color change rgb 30 0.8100000023841858 0.0 0.0
-  color change rgb 31 0.8899999856948853 0.3499999940395355 0.0
-  color change rgb 32 0.9599999785423279 0.7200000286102295 0.0
+  color change rgb 31 0.9879999756813049 0.5139999985694885 0.3330000042915344
+  color change rgb 32 0.3140000104904175 0.6000000238418579 0.7490000128746033
 }
 vmdrestoremycolors
-color change rgb 31 0.988 0.514 0.333
-color change rgb 32 0.314 0.6 0.749
 label textsize 1.0
-display resize 2000 2000
+
 axes location off
+display resize 2000 2000
