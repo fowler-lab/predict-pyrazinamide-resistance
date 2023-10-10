@@ -8,7 +8,7 @@ The aim of this GitHub repository is to allow you to reproduce the results and f
 >
 > https://doi.org/10.1101/518142
 
-At present, the above manuscript is being rewritten and therefore this repository is different to the above preprint. Once a new version of the manuscript is ready, the preprint will be updated and the manuscript submitted to a journal for review.
+At present, the above manuscript is being rewritten and therefore this repository is different to the above preprint. A new version of the manuscript has been submitted for peer-review and the preprint is being updated. 
 
 The repository contains a series of jupyter notebooks. They form a sequence, starting with data tidying, transformation and joining before then feeding into a notebooks that reproduce the figures and thence the main results of the manuscript. Each is self-contained in the sense that you don't have to run the predecessors for it to work (since all the input/output files are also stored in the repository) but you can, if you wish, run them all the way through thereby reproducing everything.
 
@@ -38,4 +38,5 @@ These are handled by
 and each also writes to disc (`pdf/`) graphs etc that are used in Supplementary Information.
 
 Philip W Fowler
-8 May 2023
+
+10 October 2023
