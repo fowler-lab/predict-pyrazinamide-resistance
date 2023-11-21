@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fowler-lab/predict-pyrazinamide-resistance/HEAD?labpath=01-parse-original-data.ipynb)
+
 # predict-pyrazinamide-resistance
 
 The aim of this GitHub repository is to allow you to reproduce the results and figures of the following study
