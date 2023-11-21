@@ -31,7 +31,11 @@ Some have flags set at the beginning that need changing and the notebook rerunni
 
 The notebooks that reproduce figures are clearly named e.g. `09-create-figure-3.ipynb`. All graphs are writen to disc (`pdf/`) graphs etc including those used in the Supplementary Information.
 
-## Installation
+## Using
+
+There are two options: (1) run in browser using `MyBinder` or (2) running locally. The first is easiest but, since several binaries are not installed, one cannot run `05-add-features`. To try running in browser please click the blue `launch|binder` button at the top of this README.
+
+### Local installation
 
 Whilst the majority of the dependencies are Python packages, two binaries are required by [`sbmlcore`](https://github.com/fowler-lab/sbmlcore) to add a few of the structural features, hence are needed to run `05-add-features.ipynb`. The other notebooks do not require them so can be run independently if you do not wish to install them.
 
