@@ -53,7 +53,7 @@ $ cd predict-pyrazinamide-resistance
 $ python3 -m venv pnca
 $ source .venv/bin/activate
 (pnca) $ python3 -m pip install --upgrade pip
-(pnca) $ pip install -r requirements
+(pnca) $ pip install -r requirements.txt
 ```
 
 Now you should be within the `pnca` virtual environment in a terminal and can e.g. launch VS Code to run the notebooks in turn.
