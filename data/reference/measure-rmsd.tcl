@@ -1,0 +1,12 @@
+mol load pdb 3PL1.pdb
+mol load pdb baa.pdb
+
+set ref [atomselect 0 "name CA and sequence MRALIIVDVQNDFCEGGSLAVTGGAALARAISDYLA YHHVVATKDFHI DHFSG SWPPHCVSGTPGADFHPSLDTSAIEAVFYKGA TGAYSGFE PLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGV DTTVAALEEMRTASVELVCS"]
+set mob [atomselect 1 "name CA and sequence NSALVVVDVQNGFTPGGNLAVADADTIIPTINQLAG FENVVLTQDWHP ISFAA LWPKHCIQGTHDAEFHPDLNIPTAQLIIRKGF IDSYSAFM GLTGYLKERGIDTVYVVGIATDFCVAWTALDAVKQGFKTLVIEDACKGI GSLEQAWQTMQQQGVVRIQS"]
+puts "Ca RMSD of shared residues: "
+measure rmsd $mob $ref
+
+set ref_bind [atomselect 0 "name CA and resid 8 96 49 51 57 71 19 68 13 133 137 134"]
+set mob_bind [atomselect 1 "name CA and resid 16 114 54 56 62 89 27 86 21 154 158 155"]
+puts "Ca RMSD of putative binding site residues as defined by Fig 1C: "
+measure rmsd $mob_bind $ref_bind
